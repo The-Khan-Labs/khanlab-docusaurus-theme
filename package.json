@@ -1,0 +1,19 @@
+{
+  "name": "khanlab-docusaurus-theme",
+  "version": "1.0.0",
+  "description": "Dark minimal theme for Docusaurus — Syne + IBM Plex, cyan accent, clean sidebar. Free & open source.",
+  "keywords": [
+    "docusaurus",
+    "docusaurus-theme",
+    "dark-theme",
+    "documentation",
+    "documentation-theme",
+    "open-source"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/The-Khan-Labs/khanlab-docusaurus-theme"
+  },
+  "author": "Khan (The-Khan-Labs)"
+}
