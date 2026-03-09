@@ -1,0 +1,180 @@
+/**
+ * KhanLab Docusaurus Theme
+ * https://github.com/The-Khan-Labs/khanlab-docusaurus-theme
+ */
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap');
+
+:root {
+  --font-display: 'Syne', system-ui, sans-serif;
+  --font-body: 'IBM Plex Sans', system-ui, sans-serif;
+  --font-mono: 'IBM Plex Mono', 'JetBrains Mono', monospace;
+  --bg-deep: #050508;
+  --bg-base: #0a0a0f;
+  --bg-surface: #12121a;
+  --bg-elevated: #1a1a24;
+  --border-subtle: rgba(255,255,255,0.06);
+  --border-default: rgba(255,255,255,0.1);
+  --text-primary: #f4f4f5;
+  --text-secondary: #a1a1aa;
+  --text-muted: #71717a;
+  --accent: #22d3ee;
+  --accent-dim: #06b6d4;
+  --accent-glow: rgba(34, 211, 238, 0.15);
+}
+
+[data-theme='dark'] {
+  --ifm-background-color: var(--bg-base);
+  --ifm-color-primary: var(--accent);
+  --ifm-color-primary-dark: var(--accent-dim);
+  --ifm-color-primary-darker: #0891b2;
+  --ifm-color-primary-darkest: #0e7490;
+  --ifm-font-family-base: var(--font-body);
+  --ifm-font-family-monospace: var(--font-mono);
+  --ifm-line-height-base: 1.7;
+  --ifm-navbar-background-color: rgba(10, 10, 15, 0.85);
+  --ifm-footer-background-color: var(--bg-deep);
+  --ifm-code-background: var(--bg-elevated);
+}
+
+.navbar {
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-bottom: 1px solid var(--border-subtle);
+  padding: 0.75rem 1.5rem;
+}
+
+.navbar__title {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 1.25rem;
+  letter-spacing: -0.03em;
+  color: var(--text-primary);
+}
+
+.navbar__link:hover {
+  color: var(--accent) !important;
+}
+
+.theme-doc-sidebar-container {
+  border-right: 1px solid var(--border-subtle);
+}
+
+.menu__link {
+  font-size: 0.875rem;
+  border-radius: 6px;
+  padding: 0.5rem 1rem;
+  margin: 0.125rem 0.5rem;
+}
+
+.menu__link--active {
+  background: var(--accent-glow);
+  color: var(--accent) !important;
+  font-weight: 600;
+}
+
+.menu__list-item-collapsible .menu__link {
+  font-weight: 600;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--text-muted);
+  padding: 0.625rem 1rem;
+  margin: 0.25rem 0.5rem;
+}
+
+.menu__list-item-collapsible .menu__link:hover {
+  color: var(--text-secondary);
+}
+
+.menu__list-item:not(.menu__list-item-collapsible) .menu__link {
+  font-weight: 400;
+  padding-left: 1.5rem;
+  color: var(--text-secondary);
+}
+
+.menu__list-item:not(.menu__list-item-collapsible) .menu__link:hover {
+  color: var(--text-primary);
+}
+
+.menu__caret {
+  opacity: 0.6;
+}
+
+.menu__list-item:first-child .menu__link {
+  font-weight: 600;
+  color: var(--text-primary);
+  text-transform: none;
+  letter-spacing: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-display);
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  color: var(--text-primary);
+}
+
+.markdown h1 {
+  font-size: 2.25rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.markdown h2 { font-size: 1.5rem; margin-top: 2.5rem; margin-bottom: 0.75rem; }
+.markdown h3 { font-size: 1.2rem; }
+.markdown p { color: var(--text-secondary); line-height: 1.75; }
+
+.markdown table {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid var(--border-default);
+  margin: 1.5rem 0;
+}
+
+.markdown table th,
+.markdown table td {
+  padding: 0.875rem 1.25rem;
+  border-bottom: 1px solid var(--border-subtle);
+  text-align: left;
+}
+
+.markdown table th {
+  background: var(--bg-elevated);
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-muted);
+}
+
+.markdown table tr:last-child td { border-bottom: none; }
+.markdown table tr:hover td { background: rgba(255,255,255,0.02); }
+
+.prism-code {
+  font-family: var(--font-mono) !important;
+  font-size: 0.875rem;
+  border-radius: 10px;
+  border: 1px solid var(--border-subtle);
+  background: var(--bg-deep) !important;
+}
+
+code {
+  font-family: var(--font-mono);
+  font-size: 0.85em;
+  background: var(--bg-elevated);
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+  color: var(--accent);
+}
+
+::-webkit-scrollbar { width: 8px; height: 8px; }
+::-webkit-scrollbar-track { background: var(--bg-deep); }
+::-webkit-scrollbar-thumb {
+  background: var(--border-default);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover { background: var(--text-muted); }

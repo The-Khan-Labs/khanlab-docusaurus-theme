@@ -4,6 +4,8 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
+**Live demo:** [the-khan-labs.github.io/khanlab-docusaurus-theme](https://the-khan-labs.github.io/khanlab-docusaurus-theme/)
+
 ## Why This Theme?
 
 - **SEO-friendly** — Fast, minimal CSS. No bloat.
