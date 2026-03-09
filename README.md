@@ -99,12 +99,6 @@ The theme uses CSS variables. Override them in your own `custom.css`:
 
 ---
 
-## GitHub Pages Setup
-
-To deploy the demo or your own site: **Settings → Pages → Source: GitHub Actions**
-
----
-
 ## License
 
 MIT. Use it anywhere.
