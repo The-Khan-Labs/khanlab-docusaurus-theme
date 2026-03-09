@@ -6,7 +6,9 @@
 
 **Live demo:** [the-khan-labs.github.io/khanlab-docusaurus-theme](https://the-khan-labs.github.io/khanlab-docusaurus-theme/)
 
-The demo includes a [Showcase](https://the-khan-labs.github.io/khanlab-docusaurus-theme/docs/showcase) page — tables, code blocks, lists — so you can see exactly how the theme renders before installing.
+The demo homepage is a showcase with View Demo, GitHub, and Share buttons. The [Showcase](https://the-khan-labs.github.io/khanlab-docusaurus-theme/docs/showcase) page has tables, code blocks, lists — so you can see exactly how the theme renders before installing.
+
+**Pages setup:** Settings → Pages → Source: **GitHub Actions** (required for this repo).
 
 ## Why This Theme?
 
