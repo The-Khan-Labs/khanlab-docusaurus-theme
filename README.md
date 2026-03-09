@@ -6,6 +6,8 @@
 
 **Live demo:** [the-khan-labs.github.io/khanlab-docusaurus-theme](https://the-khan-labs.github.io/khanlab-docusaurus-theme/)
 
+The demo includes a [Showcase](https://the-khan-labs.github.io/khanlab-docusaurus-theme/docs/showcase) page — tables, code blocks, lists — so you can see exactly how the theme renders before installing.
+
 ## Why This Theme?
 
 - **SEO-friendly** — Fast, minimal CSS. No bloat.

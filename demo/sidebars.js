@@ -2,6 +2,7 @@
 const sidebars = {
   docs: [
     'intro',
+    'showcase',
     'install',
     'customize',
   ],

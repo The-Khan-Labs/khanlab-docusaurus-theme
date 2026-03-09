@@ -4,15 +4,24 @@ sidebar_position: 1
 
 # KhanLab Theme Demo
 
-This is a live demo of the **KhanLab Docusaurus theme** — dark, minimal, built for docs.
+This is a **live demo** of the KhanLab Docusaurus theme. Look around — the sidebar, typography, tables, and code blocks are all styled by the theme.
 
-## What you're seeing
+## What this theme does
 
-- **Typography:** Syne for headings, IBM Plex for body and code
-- **Colors:** Dark base with cyan accent (#22d3ee)
-- **Sidebar:** Collapsed by default, clean hierarchy
-- **Tables & code:** Minimal styling, good contrast
+| Feature | What you get |
+|---------|--------------|
+| **Typography** | Syne for headings (that bold, geometric look), IBM Plex Sans for body text, IBM Plex Mono for code |
+| **Colors** | Dark background (#0a0a0f), cyan accent (#22d3ee) for links and highlights |
+| **Sidebar** | Collapsed by default so you're not overwhelmed. Section headers in uppercase, nested items indented |
+| **Tables** | Clean borders, hover states, readable even with lots of data |
+| **Code** | Dracula-inspired syntax highlighting, inline code in cyan |
 
-## Use it
+## See it in action
 
-Copy the theme into your Docusaurus site and add it to your config. See [Install](/khanlab-docusaurus-theme/docs/install) for details.
+- **[Showcase](/docs/showcase)** — Sample content: tables, code, lists, so you see how everything renders
+- **[Install](/docs/install)** — How to add the theme to your own Docusaurus site
+- **[Customize](/docs/customize)** — Override colors and fonts with CSS variables
+
+## Who it's for
+
+Docs sites, wikis, internal knowledge bases, developer portals. If you want a dark theme that doesn't look like every other Docusaurus site, this is it.
