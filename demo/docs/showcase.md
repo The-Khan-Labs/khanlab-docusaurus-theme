@@ -1,5 +1,10 @@
 ---
 sidebar_position: 2
+title: Theme Showcase - Tables, Code, Typography
+description: See the KhanLab Docusaurus theme in action. Tables, code blocks, lists, and typography examples.
+keywords:
+  - docusaurus theme showcase
+  - documentation theme preview
 ---
 
 # Showcase

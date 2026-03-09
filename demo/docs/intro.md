@@ -1,5 +1,12 @@
 ---
 sidebar_position: 1
+title: KhanLab Docusaurus Theme - Dark Documentation Theme
+description: Live demo of the KhanLab Docusaurus dark theme. Syne and IBM Plex typography, cyan accent. Perfect for documentation sites and developer portals.
+keywords:
+  - docusaurus theme
+  - dark theme
+  - documentation theme
+  - docusaurus 3
 ---
 
 # KhanLab Theme Demo

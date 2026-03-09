@@ -4,7 +4,7 @@ import { themes as prismThemes } from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'KhanLab Theme',
-  tagline: 'Dark minimal theme for Docusaurus',
+  tagline: 'Dark theme for Docusaurus. Syne and IBM Plex. Cyan accent. MIT.',
   favicon: 'img/favicon.ico',
   url: 'https://the-khan-labs.github.io',
   baseUrl: '/khanlab-docusaurus-theme/',
@@ -13,6 +13,23 @@ const config = {
   trailingSlash: false,
   onBrokenLinks: 'throw',
   i18n: { defaultLocale: 'en', locales: ['en'] },
+  headTags: [
+    {
+      tagName: 'meta',
+      attributes: {
+        name: 'description',
+        content:
+          'KhanLab Docusaurus Theme - Dark, SEO-friendly theme for Docusaurus 3.x. Syne and IBM Plex fonts. Cyan accent. Perfect for documentation sites and developer portals.',
+      },
+    },
+    {
+      tagName: 'meta',
+      attributes: {
+        name: 'twitter:card',
+        content: 'summary_large_image',
+      },
+    },
+  ],
   presets: [
     [
       'classic',
@@ -24,6 +41,13 @@ const config = {
     ],
   ],
   themeConfig: {
+    metadata: [
+      {
+        name: 'keywords',
+        content:
+          'docusaurus theme, dark theme, documentation theme, docusaurus 3, developer documentation, open source, Syne, IBM Plex',
+      },
+    ],
     colorMode: {
       defaultMode: 'dark',
       respectPrefersColorScheme: true,

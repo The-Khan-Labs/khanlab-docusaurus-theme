@@ -11,7 +11,7 @@ export default function Home() {
     if (navigator.share) {
       navigator.share({
         title: 'KhanLab Docusaurus Theme',
-        text: 'Dark minimal theme for Docusaurus — free & open source',
+        text: 'Dark theme for Docusaurus. Syne and IBM Plex. Cyan accent. MIT.',
         url: demoUrl,
       }).catch(() => copyUrl(demoUrl));
     } else {
@@ -31,14 +31,14 @@ export default function Home() {
   };
 
   return (
-    <Layout title="KhanLab Theme" description="Dark minimal theme for Docusaurus. Syne + IBM Plex, cyan accent. Free & open source.">
+    <Layout title="KhanLab Theme" description="Dark theme for Docusaurus. Syne and IBM Plex. Cyan accent. MIT.">
       <main className="main-home">
         <div className="hero">
           <h1 className="hero__title">
             KhanLab <span className="hero__accent">Theme</span>
           </h1>
           <p className="hero__tagline">
-            Dark minimal theme for Docusaurus. Syne + IBM Plex, cyan accent. Free & open source.
+            Dark theme for Docusaurus. Syne and IBM Plex. Cyan accent. MIT.
           </p>
           <div className="hero__buttons">
             <Link to={useBaseUrl('/docs/intro')} className="hero__btn hero__btn--primary">
@@ -80,7 +80,7 @@ export default function Home() {
             </div>
           </div>
           <p className="features__cta">
-            <Link to={useBaseUrl('/docs/showcase')}>See the showcase</Link> — tables, code blocks, lists. <Link to={useBaseUrl('/docs/install')}>Install guide</Link>.
+            <Link to={useBaseUrl('/docs/showcase')}>See the showcase</Link> (tables, code, lists). <Link to={useBaseUrl('/docs/install')}>Install guide</Link>.
           </p>
         </section>
       </main>

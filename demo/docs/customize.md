@@ -1,5 +1,11 @@
 ---
 sidebar_position: 4
+title: Customize KhanLab Theme - CSS Variables
+description: Override colors and fonts with CSS variables. Change accent, background, and typography.
+keywords:
+  - docusaurus theme customize
+  - css variables
+  - theme customization
 ---
 
 # Customize

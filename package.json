@@ -1,14 +1,22 @@
 {
   "name": "khanlab-docusaurus-theme",
   "version": "1.0.0",
-  "description": "Dark minimal theme for Docusaurus — Syne + IBM Plex, cyan accent, clean sidebar. Free & open source.",
+  "description": "Dark, SEO-friendly theme for Docusaurus 3.x. Syne and IBM Plex typography. Cyan accent. Perfect for documentation sites and developer portals. MIT.",
   "keywords": [
     "docusaurus",
     "docusaurus-theme",
+    "docusaurus-3",
     "dark-theme",
     "documentation",
     "documentation-theme",
-    "open-source"
+    "documentation-site",
+    "developer-documentation",
+    "open-source",
+    "css",
+    "typography",
+    "syne",
+    "ibm-plex",
+    "github-pages"
   ],
   "license": "MIT",
   "repository": {

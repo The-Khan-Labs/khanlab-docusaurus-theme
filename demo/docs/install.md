@@ -1,5 +1,11 @@
 ---
 sidebar_position: 3
+title: Install KhanLab Docusaurus Theme
+description: How to install the KhanLab dark theme in your Docusaurus 3 site. Copy custom.css and add to config.
+keywords:
+  - docusaurus install
+  - docusaurus theme install
+  - dark theme setup
 ---
 
 # Install
